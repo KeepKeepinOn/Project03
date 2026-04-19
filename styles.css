@@ -1,0 +1,42 @@
+/* Using navy and white for max accessability*/
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: navy;
+    font-family: cursive;
+}
+
+table {
+  border-collapse: collapse;
+  width: 62%;
+  margin: 50px auto;
+  font-size: 19px;
+}
+
+/*make a navy border for accessibility*/
+th, td {
+  border: 2px solid navy; 
+  padding: 12px;
+  text-align: center;
+}
+
+/*navy cells with white text*/
+th {
+  background-color: navy; 
+  color: white;            
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*data cells will be white with navy text*/
+td {
+  background-color: #ffffff; 
+  color: navy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;            
+}
+
+/*my github portfolio*/
+footer {
+    margin-top: 190px;
+    text-align: center;
+}
